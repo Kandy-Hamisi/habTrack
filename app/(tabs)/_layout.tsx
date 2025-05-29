@@ -22,8 +22,8 @@ const TabsLayout = () => {
       <Tabs.Screen
         name="index"
         options={{
-          title: "Home",
-          headerShown: false,
+          title: "Today's Habits",
+
           tabBarIcon: ({ color, focused, size }) => (
             <MaterialCommunityIcons
               name="calendar-today"
@@ -51,7 +51,6 @@ const TabsLayout = () => {
         name="add-habit"
         options={{
           title: "Add Habit",
-          headerShown: false,
           tabBarIcon: ({ color, focused, size }) => (
             <MaterialCommunityIcons
               name="plus-circle"

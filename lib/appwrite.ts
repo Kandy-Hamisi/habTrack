@@ -7,3 +7,4 @@ const client = new Client()
   .setPlatform(config.env.appwritePlatform);
 
 export const account = new Account(client);
+export const databases = new Databases(client);
