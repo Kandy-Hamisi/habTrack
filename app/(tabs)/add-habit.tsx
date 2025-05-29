@@ -8,15 +8,13 @@ import {
   useTheme,
 } from "react-native-paper";
 import { useAuth } from "@/lib/auth-context";
-import { databases } from "@/lib/appwrite";
+import { DATABASE_ID, databases, HABITS_COLLECTION_ID } from "@/lib/appwrite";
 import config from "@/config";
 import { ID } from "react-native-appwrite";
 import { useRouter } from "expo-router";
 
 const FREQUENCIES = ["daily", "weekly", "monthly"];
 type Frequency = (typeof FREQUENCIES)[number];
-const DATABASE_ID = config.env.appwriteDatabaseID;
-const HABITS_COLLECTION_ID = config.env.appwriteCollectionID;
 
 const AddHabitPage = () => {
   const [title, setTitle] = useState<string>("");

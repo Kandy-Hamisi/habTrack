@@ -8,3 +8,6 @@ const client = new Client()
 
 export const account = new Account(client);
 export const databases = new Databases(client);
+
+export const DATABASE_ID = config.env.appwriteDatabaseID;
+export const HABITS_COLLECTION_ID = config.env.appwriteCollectionID;
