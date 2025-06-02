@@ -37,7 +37,6 @@ const TabsLayout = () => {
         name="streaks"
         options={{
           title: "Streaks",
-          headerShown: false,
           tabBarIcon: ({ color, focused, size }) => (
             <MaterialCommunityIcons
               name="chart-line"

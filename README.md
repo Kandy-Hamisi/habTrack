@@ -1,50 +1,53 @@
-# Welcome to your Expo app 👋
+# 🧠 HabitTracker
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A sleek and simple React Native habit tracking app to help users build consistent habits, track progress, and view streaks — all with a clean UI and smooth experience.
 
-## Get started
+---
 
-1. Install dependencies
+## ✨ Features
 
-   ```bash
-   npm install
-   ```
+- 🔐 **Authentication** – Sign up and log in securely.
+- 📝 **Add Habits** – Create custom daily habits to track.
+- 📅 **Track Progress** – Mark habits as completed.
+- 🔥 **View Streaks** – See how consistent you've been.
+- 🎯 **Responsive UI** – Clean and modern interface for a great UX.
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## 📸 Screenshots
 
-In the output, you'll find options to open the app in a
+| Auth Screen                                        | Habit List                                             | Add Habit                                               | Streaks                                             |
+|----------------------------------------------------|--------------------------------------------------------|---------------------------------------------------------|-----------------------------------------------------|
+| ![Auth Screen](./assets/screenshots/auth-page.png) | ![Habit Screen](./assets/screenshots/habit-screen.png) | ![Add Habit](./assets/screenshots/add-habit-screen.png) | ![Streaks](./assets/screenshots/streak-screen2.png) |
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+> Replace the paths above with actual paths to your screenshot images
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 🚀 Getting Started
 
-When you're ready, run:
+### Prerequisites
+
+- Node.js >= 14
+- Expo CLI (`npm install -g expo-cli`)
+- Git
+
+### Installation
 
 ```bash
-npm run reset-project
+git clone https://github.com/yourusername/habit-tracker-app.git
+cd habit-tracker-app
+npm install
+expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-## Learn more
+## ⚙️ Technologies Used
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- **React Native**
+- **React Native Paper** (for styling)
+- **Expo**
+- **Expo Router** (for navigation)
+- **Appwrite Auth** (for authentication)
+- **Appwrite Databases** (for storage)
+- **TypeScript**
